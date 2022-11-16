@@ -141,7 +141,7 @@
                     android:resource="@xml/syncadapter" />
             </service>
             <service
-                android:name="com.marianhello.bgloc.sync.AuthenticatorService" android:exported="false">
+                android:name="com.marianhello.bgloc.sync.AuthenticatorService" android:exported="true">
                 <intent-filter>
                     <action android:name="android.accounts.AccountAuthenticator"/>
                 </intent-filter>
